@@ -1843,4 +1843,47 @@ hr {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   /* IE6-9 */
 }
+
+/*------------------------------------CSS Login----------------------------------*/
+.gray-light {
+  background-color: #f0f2f5;
+}
+
+.center {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.login-area {
+  height: 100vh !important;
+}
+
+.br-l {
+  border-left: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .br-l {
+    border: none;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .br-l {
+    border: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .br-l {
+    border: none;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
